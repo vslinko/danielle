@@ -1,0 +1,7 @@
+.DS_Store
+.idea
+app/cache
+app/config/parameters.yml
+app/logs
+vendor
+web/bundles
