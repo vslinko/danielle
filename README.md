@@ -2,8 +2,10 @@
 
 ## Installation
 
-    git clone git://github.com/rithis/symfony-skeleton.git <project_name>
-    cd <project_name>
-    git remote set-url <path_to_your_git_host>
+    PROJECT_NAME=symfony-skeleton
+    GIT_URL=git@github.com/rithis/symfony-skeleton.git
+    git clone git://github.com/rithis/symfony-skeleton.git $PROJECT_NAME
+    cd $PROJECT_NAME
+    git remote set-url origin $GIT_URL
     cp app/config/parameters.dist.yml app/config/parameters.yml
     ./app/console assets:install --symlink web
