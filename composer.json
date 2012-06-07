@@ -1,5 +1,20 @@
 {
     "name": "rithis/danielle",
+    "homepage": "https://danielle.rithis.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vyacheslav Slinko",
+            "email": "vyacheslav.slinko@rithis.com",
+            "role": "Founder"
+        }
+    ],
+    "support": {
+        "email": "support@rithis.com",
+        "issues": "https://github.com/rithis/danielle/issues",
+        "wiki": "https://github.com/rithis/danielle/wiki",
+        "source": "https://github.com/rithis/danielle"
+    },
     "require": {
         "symfony/symfony": "dev-master",
         "symfony/monolog-bundle": "dev-master",
@@ -7,13 +22,9 @@
         "sonata-project/jquery-bundle": "dev-master",
         "tarjei/memcachebundle": "dev-master"
     },
-    "authors": [
-        {
-            "name": "Vyacheslav Slinko",
-            "email": "vyacheslav.slinko@gmail.com"
-        }
-    ],
     "autoload": {
-        "psr-0": { "Rithis": "src" }
+        "psr-0": {
+            "Rithis": "src"
+        }
     }
 }
