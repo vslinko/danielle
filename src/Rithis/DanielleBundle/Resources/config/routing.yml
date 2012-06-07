@@ -1,0 +1,11 @@
+rithis_danielle_company_description_edit:
+    pattern: /company/description/edit
+    defaults: { _controller: RithisDanielleBundle:CompanyDescription:edit }
+    requirements:
+        _method: GET
+
+rithis_danielle_company_description_put:
+    pattern: /company/description
+    defaults: { _controller: RithisDanielleBundle:CompanyDescription:put }
+    requirements:
+        _method: PUT

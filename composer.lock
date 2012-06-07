@@ -1,16 +1,16 @@
 {
-    "hash": "5f173be733d3f0959b8250eaf6068626",
+    "hash": "df8f7f223b52664e6d1a746a29b66a3b",
     "packages": [
-        {
-            "package": "doctrine/common",
-            "version": "dev-master",
-            "source-reference": "3137686dda79d9d46fb69ad05c053d6ad73c182d"
-        },
         {
             "package": "doctrine/common",
             "version": "dev-master",
             "alias-pretty-version": "2.3.x-dev",
             "alias-version": "2.3.9999999.9999999-dev"
+        },
+        {
+            "package": "doctrine/common",
+            "version": "dev-master",
+            "source-reference": "3137686dda79d9d46fb69ad05c053d6ad73c182d"
         },
         {
             "package": "monolog/monolog",
@@ -20,6 +20,11 @@
             "package": "sensio/generator-bundle",
             "version": "dev-master",
             "source-reference": "0813379920dcaa4b06361501f654379383d75f16"
+        },
+        {
+            "package": "sonata-project/jquery-bundle",
+            "version": "dev-master",
+            "source-reference": "01ffb8d1a7a4bb3971aed003e4f1ef050a0701aa"
         },
         {
             "package": "symfony/monolog-bundle",
@@ -38,21 +43,20 @@
             "source-reference": "1541fe26e4d78135ab24ae2edfb1dbc2a9b2fa40"
         },
         {
-            "package": "symfony/symfony",
+            "package": "tarjei/MemcacheBundle",
             "version": "dev-master",
-            "alias-pretty-version": "2.1.x-dev",
-            "alias-version": "2.1.9999999.9999999-dev"
+            "source-reference": "ad79b37198cbb844c473b831a8978d5537d07b09"
+        },
+        {
+            "package": "twig/twig",
+            "version": "dev-master",
+            "source-reference": "6d072640c44f1781049afd2d96060c72da80662a"
         },
         {
             "package": "twig/twig",
             "version": "dev-master",
             "alias-pretty-version": "1.8.x-dev",
             "alias-version": "1.8.9999999.9999999-dev"
-        },
-        {
-            "package": "twig/twig",
-            "version": "dev-master",
-            "source-reference": "6d072640c44f1781049afd2d96060c72da80662a"
         }
     ],
     "packages-dev": null,
@@ -63,6 +67,8 @@
     "stability-flags": {
         "symfony/symfony": 20,
         "symfony/monolog-bundle": 20,
-        "sensio/generator-bundle": 20
+        "sensio/generator-bundle": 20,
+        "sonata-project/jquery-bundle": 20,
+        "tarjei/memcachebundle": 20
     }
 }

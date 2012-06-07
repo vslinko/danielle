@@ -11,6 +11,9 @@ class AppKernel extends Kernel
             new Symfony\Bundle\FrameworkBundle\FrameworkBundle(),
             new Symfony\Bundle\TwigBundle\TwigBundle(),
             new Symfony\Bundle\MonologBundle\MonologBundle(),
+            new Sonata\jQueryBundle\SonatajQueryBundle(),
+            new SM\MemcacheBundle\SMMemcacheBundle(),
+            new Rithis\DanielleBundle\RithisDanielleBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

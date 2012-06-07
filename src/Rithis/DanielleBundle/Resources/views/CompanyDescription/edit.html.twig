@@ -1,0 +1,31 @@
+{% extends "::base.html.twig" %}
+
+{% form_theme form _self %}
+
+{% block content %}
+<form action="{{ path("rithis_danielle_company_description_put") }}" method="post">
+    <input type="hidden" name="_method" value="put">
+    {{ form_widget(form) }}
+    <input type="submit">
+</form>
+<script type="text/javascript" src="{{ asset('bundles/rithisdanielle/js/company_description.js') }}"></script>
+{% endblock %}
+
+{% block form_row %}
+{% spaceless %}
+    {% if not compound %}
+        {{ form_errors(form) }}
+    {% endif %}
+    {{ form_widget(form) }}
+{% endspaceless %}
+{% endblock %}
+
+{% block collection_widget %}
+{% spaceless %}
+    {% if prototype is defined %}
+        {% set attr = attr|merge({'data-prototype': form_row(prototype) }) %}
+    {% endif %}
+    {{ block('form_widget') }}
+    <div class="add">Add {{ label }}</div>
+{% endspaceless %}
+{% endblock collection_widget %}

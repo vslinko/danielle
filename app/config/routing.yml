@@ -1,0 +1,3 @@
+_rithis_danielle:
+    resource: "@RithisDanielleBundle/Resources/config/routing.yml"
+    prefix: /
