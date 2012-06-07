@@ -1,8 +1,8 @@
-set :application, "symfony-skeleton"
-set :domain, "#{application}.com"
+set :application, "danielle"
+set :domain, "#{application}.rithis.com"
 set :deploy_to, "/var/www/#{domain}"
 
-set :repository, "git@github.com:rithis/#{domain}.git"
+set :repository, "git@github.com:rithis/#{application}.git"
 set :scm, :git
 
 role :web, domain

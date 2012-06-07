@@ -1,0 +1,68 @@
+{
+    "hash": "5f173be733d3f0959b8250eaf6068626",
+    "packages": [
+        {
+            "package": "doctrine/common",
+            "version": "dev-master",
+            "source-reference": "3137686dda79d9d46fb69ad05c053d6ad73c182d"
+        },
+        {
+            "package": "doctrine/common",
+            "version": "dev-master",
+            "alias-pretty-version": "2.3.x-dev",
+            "alias-version": "2.3.9999999.9999999-dev"
+        },
+        {
+            "package": "monolog/monolog",
+            "version": "1.1.0"
+        },
+        {
+            "package": "sensio/generator-bundle",
+            "version": "dev-master",
+            "source-reference": "0813379920dcaa4b06361501f654379383d75f16"
+        },
+        {
+            "package": "symfony/monolog-bundle",
+            "version": "dev-master",
+            "source-reference": "1231105826078c117e07e57d7f658141d6147d35"
+        },
+        {
+            "package": "symfony/symfony",
+            "version": "dev-master",
+            "alias-pretty-version": "2.1.x-dev",
+            "alias-version": "2.1.9999999.9999999-dev"
+        },
+        {
+            "package": "symfony/symfony",
+            "version": "dev-master",
+            "source-reference": "1541fe26e4d78135ab24ae2edfb1dbc2a9b2fa40"
+        },
+        {
+            "package": "symfony/symfony",
+            "version": "dev-master",
+            "alias-pretty-version": "2.1.x-dev",
+            "alias-version": "2.1.9999999.9999999-dev"
+        },
+        {
+            "package": "twig/twig",
+            "version": "dev-master",
+            "alias-pretty-version": "1.8.x-dev",
+            "alias-version": "1.8.9999999.9999999-dev"
+        },
+        {
+            "package": "twig/twig",
+            "version": "dev-master",
+            "source-reference": "6d072640c44f1781049afd2d96060c72da80662a"
+        }
+    ],
+    "packages-dev": null,
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "symfony/symfony": 20,
+        "symfony/monolog-bundle": 20,
+        "sensio/generator-bundle": 20
+    }
+}
